@@ -1,0 +1,19 @@
+servers:
+  - lobby1
+
+use-proxy-priorities: true
+
+down-cooldown-seconds: 10
+
+reasons:
+  - unknown
+  - timeout
+  - exception
+  - server_kick
+  - transfer_failed
+  - incompatible
+
+stay-on-transfer-failure: true
+
+messages:
+  fallback: "&eThe server &c{from} &eis offline. You were moved to &a{server}&e."
